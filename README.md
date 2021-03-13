@@ -27,6 +27,7 @@ A complete list of dependencies is in `package.json`. These are the primary ones
 - [postcss](https://postcss.org) (CSS customisation)
 - [cssnano](https://cssnano.co) (CSS compression)
 - [Autoprefixer](https://autoprefixer.github.io) (automatically adds vendor prefixes to CSS)
+- [Inter UI font](https://rsms.me/inter/)
 
 ### Misc
 

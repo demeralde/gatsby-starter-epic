@@ -36,7 +36,15 @@ A complete list of dependencies is in `package.json`. These are the primary ones
 
 ## 🚀 Installation
 
-Install dependencies:
+Copy environment variable template:
+
+```sh
+cp .env.example .env
+```
+
+Edit the env vars as necessary for your environment.
+
+Then install dependencies:
 
 ```sh
 yarn install

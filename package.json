@@ -1,5 +1,5 @@
 {
-  "name": "beach-bliss-aldinga",
+  "name": "gatsby-starter-epic",
   "private": true,
   "scripts": {
     "build": "gatsby build",

@@ -1,38 +1,53 @@
-# Aldinga Beach Bliss
+# gatsby-starter-epic
 
 Gatsby starter with good defaults. I use it for most projects.
 
 It includes my favourite dependencies, dev tools, configurations, and the like.
 
-## Tech stack
+## Features
+### Tech stack
 
 A complete list of dependencies is in `package.json`. These are the primary ones:
 
-### Core
+#### Core
 
 - [Gatsby](https://www.gatsbyjs.com)
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org)
 
-### Development
+#### Development
 
 - [Jest](https://jestjs.io) (testing framework)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) (testing library)
 - [ESLint](https://eslint.org) (linting)
 - [Prettier](https://prettier.io) (code formatter)
 - [lint-staged](https://github.com/okonet/lint-staged) (precommit validation)
 
-### Styles
+#### Styles
 
 - [Tailwind CSS](https://tailwindcss.co) (CSS framework)
 - [postcss](https://postcss.org) (CSS customisation)
-- [cssnano](https://cssnano.co) (CSS compression)
+- [PurgeCSS](https://purgecss.com/) (removes unused CSS)
 - [Autoprefixer](https://autoprefixer.github.io) (automatically adds vendor prefixes to CSS)
 - [Inter UI font](https://rsms.me/inter/)
 
-### Misc
+#### Misc
 
 - [lodash](https://lodash.com) (general utilities)
 - [Sentry](https://sentry.io) (error logging)
+
+### Other features
+
+* Dev workflow works smoothly out of the box
+* Absolute imports are configured
+* Extra Tailwind CSS utilities
+* Great TypeScript config defaults
+* Jest config and utilities for writing clean tests
+* Optimised ESLint config
+* Organised directory tree
+* [EditorConfig](https://editorconfig.org/) for consistent styles across multiple editors
+* `.env.example` file
+* `uuid` utility for `key` props (useful when an ID from a back-end isn't available)
 
 ## 🚀 Installation
 

@@ -38,10 +38,8 @@ A complete list of dependencies is in `package.json`. These are the primary ones
 Install dependencies:
 
 ```sh
-yarn install -D
+yarn install
 ```
-
-The `-D` flag can be removed if this is a production install.
 
 ## Development
 

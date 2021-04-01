@@ -20,7 +20,9 @@
     "src/**/*.tsx",
     ".eslintrc.js",
     "gatsby-*.js",
-    "*.config.js"
+    "*.config.js",
+    "src/jest.setup.tsx",
+    "jest.preprocess.js"
   ],
-  "exclude": ["node_modules", "public"]
+  "exclude": ["node_modules", "dist", "public"]
 }

@@ -4,7 +4,7 @@ module.exports = {
   moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
   moduleDirectories: ["node_modules", "src"],
   moduleNameMapper: {
-    "\\.(jpg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|md)$":
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|md)$":
       "<rootDir>/src/__mocks__/file.ts",
     "\\.(css)$": "identity-obj-proxy",
   },
@@ -17,9 +17,8 @@ module.exports = {
       babelConfig: true,
     },
   },
-  testURL: "http://localhost",
+  testURL: "http://localhost/",
   transform: {
-    "^.+\\.jsx?$": "<rootDir>/node_modules/babel-jest",
-    "^.+\\.tsx?$": "ts-jest",
+    "^.+\\.[jt]sx?$": "<rootDir>/jest.preprocess.js",
   },
 };

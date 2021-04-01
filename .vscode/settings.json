@@ -1,3 +1,20 @@
 {
-  "css.validate": false
+  "eslint.alwaysShowStatus": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.quickSuggestions": {
+      "strings": true
+  },
+  "editor.autoClosingQuotes": "always",
+  "tailwindCSS.experimental.classRegex": [
+      "tw`([^`]*)",
+      "tw=\"([^\"]*)",
+      "tw={\"([^\"}]*)",
+      "tw\\.\\w+`([^`]*)",
+      "tw\\(.*?\\)`([^`]*)"
+  ],
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  }
 }

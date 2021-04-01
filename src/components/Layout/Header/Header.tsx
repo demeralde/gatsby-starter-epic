@@ -1,6 +1,8 @@
 import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 
+import { Nav, Inner, Title } from "./styles";
+
 const Header = (): React.ReactElement => {
   const data = useStaticQuery(
     graphql`
@@ -16,11 +18,11 @@ const Header = (): React.ReactElement => {
   const { title } = data.site.siteMetadata;
 
   return (
-    <nav className="bg-white border-b">
-      <div className="container mx-auto py-4 px-8">
-        <h1 className="text-xl">{title}</h1>
-      </div>
-    </nav>
+    <Nav data-testid="header">
+      <Inner>
+        <Title>{title}</Title>
+      </Inner>
+    </Nav>
   );
 };
 

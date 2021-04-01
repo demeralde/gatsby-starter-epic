@@ -87,6 +87,7 @@ module.exports = {
         "gatsby-node.js",
         "tailwind.config.js",
         "postcss.config.js",
+        "jest.preprocess.js",
         "src/jest.setup.tsx",
         "*.test.ts",
         "*.test.tsx",
@@ -119,6 +120,7 @@ module.exports = {
         "gatsby-node.js",
         "gatsby-node.esm.js",
         "gatsby-config.js",
+        "jest.preprocess.js",
       ],
       rules: {
         "@typescript-eslint/no-var-requires": 0,

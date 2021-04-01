@@ -2,10 +2,6 @@
 
 /* Add global styles here */
 
-body {
-  @apply bg-gray-100;
-}
-
 @tailwind components;
 
 @tailwind utilities;

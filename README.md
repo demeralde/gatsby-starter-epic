@@ -85,6 +85,8 @@ Now open `http://localhost:3000` to view the site. Any changes will be updated i
 
 Of course, you can redact `-p 3000` if you always use this by default.
 
+I also recommend installing [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) for style autocompletion.
+
 ### Utilities
 
 Run tests:

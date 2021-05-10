@@ -56,5 +56,12 @@ module.exports = {
       resolve: "@sentry/gatsby",
       options: { dsn: process.env.GATSBY_SENTRY_DSN },
     },
+    {
+      resolve: "gatsby-plugin-page-creator",
+      options: {
+        path: `${__dirname}/src/pages`,
+        ignore: ["**/styles.ts", "**/styles.tsx"],
+      },
+    },
   ],
 };

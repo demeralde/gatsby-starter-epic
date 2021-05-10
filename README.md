@@ -128,6 +128,11 @@ Run the built source code in the browser:
 yarn run serve
 ```
 
+Install Husky Git hooks:
+
+```sh
+yarn install-hooks
+```
 ## Deployment
 
 Validate and build the source code for deployment:

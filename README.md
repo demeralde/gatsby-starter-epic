@@ -1,6 +1,6 @@
 # gatsby-starter-epic
 
-Gatsby starter with good, opinionated defaults. I use it for most projects.
+Gatsby starter with good, opinionated defaults. I use it for most static projects.
 
 It includes my favourite dependencies, dev tools, configurations, and the like.
 ## Features
